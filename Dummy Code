@@ -72,7 +72,12 @@ out_undo_partial_alloc:
 
 }
 
+# Program to generate a random number between 0 and 9
 
+# importing the random module
+import random
+
+print(random.randint(0,9))
 
 EXPORT_SYMBOL(groups_alloc);
 
@@ -100,7 +105,9 @@ void groups_free(struct group_info *group_info)
 
 EXPORT_SYMBOL(groups_free);
 
+# This program prints Hello, world!
 
+print('Hello, world!')
 
 /* export the group_info to a user-space array */
 
