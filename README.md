@@ -1,2 +1,2 @@
 # demo-repo
-Demo repo for Notebooks
+Repositiory used for demo purposes
